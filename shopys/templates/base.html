@@ -1,0 +1,361 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+	<title>{% block title %}{% endblock %}</title>
+
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="{% block description %}{% endblock %}">
+	<meta name="author" content="{% block author %}{% endblock %}">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="{% static 'favicon.png' %} ">
+
+	<!-- Web Fonts -->
+	<!--<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700'>
+-->
+	<!-- CSS Global Compulsory -->
+	<link rel="stylesheet" href="{% static 'plugins/bootstrap/css/bootstrap.min.css' %} ">
+
+	<!-- CSS Header and Footer -->
+	<link rel="stylesheet" href="{% static 'css/headers/header.css' %}">
+	<link rel="stylesheet" href="{% static 'css/footers/footer.css' %} ">
+
+	<!-- CSS Implementing Plugins -->
+	<link rel="stylesheet" href="{% static 'css/animates.css' %} ">
+	<link rel="stylesheet" href="{% static 'plugins/font-awesome/css/font-awesome.min.css' %} ">
+
+	<!-- CSS Theme -->
+
+	<!-- CSS Customization -->
+	<link rel="stylesheet" href="{% static 'css/common.css' %} ">
+	<link rel="stylesheet" href="{% static 'css/custom.css' %} ">
+</head>
+<body id="body" class="header-fixed">
+    <!--Wrapper-->
+    <div class="wrapper">
+        <!--Header-->
+        {% block headers %}
+        <div class="header header-static">
+
+            <!--topBar-->
+            {% block header-topBar %}
+            {% include 'includes/header-topBar.html' %}
+            {% endblock %}
+            <!--End topBar-->
+
+            <!--navBar -->
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+                    <div class="menu-container">
+				        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            {% block buttons %}
+                            {% include 'includes/navbar-buttons.html' %}
+                            {% endblock %}
+
+                            {% block navbar-brand %}
+                            {% include 'includes/navbar-brand.html' %}
+                            {% endblock %}
+                        </div>
+
+                    </div>
+
+                    <!-- End Brand and toggle get grouped for better mobile display -->
+                    <div class="collapse navbar-collapse navbar-responsive-collapse">
+                        <div class="menu-container">
+                            <ul class="nav navbar-nav">
+                                <!--首页-->
+                                <li class="dropdown active">
+                                    <a href="javascript:void(0);" title="">首页</a>
+                                </li>
+                                <!--End 首页-->
+
+                                 <!--Django-->
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" title="" class="dropdown-toggle" data-toggle="dropdown">
+                                        Django
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="javascript:void(0);" title="">Django-01</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <!--End Django-->
+
+                                 <!--web App-->
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" title="" class="dropdown-toggle" data-toggle="dropdown">
+                                        webApp
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-submenu">
+                                            <a href="javascript:void(0);" title="" target="_blank">HTML5</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="javascript:void(0);" title="">HTML5-01</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="javascript:void(0);" title="" target="_blank">手机端</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="templates/rem.html" title="">手机端rem</a>
+                                                </li>
+                                                <li>
+                                                    <a href="templates/apps/webApp/questions/index.html" title="">微信端答题项目</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <!--end web App-->
+
+                                 <!--Vue.js-->
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" title="" class="dropdown-toggle" data-toggle="dropdown">
+                                        vue.js
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="javascript:void(0);" title="">vue.js 笔记</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <!--End Vue.js-->
+                                 <!--Vue.js-->
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" title="" class="dropdown-toggle" data-toggle="dropdown">
+                                        React.js
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="javascript:void(0);" title="">react.js 笔记</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <!--End Vue.js-->
+
+                                 <!--Projects-->
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" title="" class="dropdown-toggle" data-toggle="dropdown">
+                                      Projects
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="http://www.topdy.cn" title="">项目一：www.topdy.cn</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://dingxiangidc.com/" title="">项目二：dingxiangidc.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://h5.topdy.cn" title="">项目三：h5.topdy.cn</a>
+                                        </li>
+                                        <li class="dropdown-submenu">
+                                            <a href="javascript:void(0);" title="">项目四：webApp</a>
+                                            <ul class="dropdown-menu">
+                                                <li>
+                                                    <a href="templates/apps/webApp/loveEachOther/index.html" title="">两情相悦一</a>
+                                                </li>
+                                                <li>
+                                                    <a href="templates/apps/webApp/loveEachOther/index-02.html" title="">两情相悦二</a>
+                                                </li>
+                                                <li>
+                                                    <a href="templates/apps/webApp/loveEachOther/index-03.html" title="">两情相悦三</a>
+                                                </li>
+                                                <li>
+                                                    <a href="templates/apps/webApp/loveEachOther/index-03-01.html" title="">两情相悦四</a>
+                                                </li>
+                                                <li>
+                                                    <a href="templates/apps/webApp/loveEachOther/index-04.html" title="">两情相悦五</a>
+                                                </li>
+                                                <li>
+                                                    <a href="templates/apps/webApp/loveEachOther/index-05.html" title="">两情相悦六</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                 <!--End Projects-->
+
+                                 <!--about Me-->
+                                <li>
+                                    <a href="templates/resuMe.html" title="" target="_blank">
+                                      about Me
+                                    </a>
+                                </li>
+                                 <!--End about Me-->
+
+                                 <!--about Me-->
+                                <li>
+                                    <a href="templates/Audition.html" title="" target="_blank">
+                                      前端问题汇总
+                                    </a>
+                                </li>
+                                 <!--End about Me-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End navBar -->
+        </div>
+        {% endblock %}
+        <!-- End Header-->
+
+        {% block show_lists %}
+        <div class="container content-md">
+            <div class="row">
+                <div class="col-sm-4 col-xs-12 margin-bottom-20 animated fadeInDown" style="animation-delay: 0.4s">
+                    <div class="services-block text-center">
+                        <h2 class="color-415ee4 heading-md margin-bottom-20">
+                            Django
+                        </h2>
+                        <p>
+                            Django是一个卓越的新一代Web框架
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 margin-bottom-20 animated fadeInRight" style="animation-delay: 0.7s">
+                    <div class="services-block text-center">
+                        <h2 class="color-415ee4 heading-md margin-bottom-20">
+                            Vue.js
+                        </h2>
+                        <p>
+                            它更适合手机端的WEB开发,与angular.js相同的是 声明式开发,但性能高于angular,体积小很多
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 margin-bottom-20 animated fadeInRight" style="animation-delay: 1s">
+                    <div class="services-block text-center">
+                        <h2 class="color-415ee4 heading-md margin-bottom-20">
+                            React.js
+                        </h2>
+                        <p>
+                            React.js 只对应了V 这部分，如果它插手了 M 或 C 的逻辑，你就需要考虑用其它方法来解
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-xs-12 margin-bottom-20 animated fadeInUp" style="animation-delay: 1.3s">
+                    <div class="services-block text-center">
+                        <h2 class="color-415ee4 heading-md margin-bottom-20">
+                            webApp
+                        </h2>
+                        <p>
+                           WebApp是指基于Web的系统和应用，其作用是向广大的最终用户发布一组复杂的内容和功能
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+        <!--Footer-->
+        {% block footers %}
+        <div class="footer background-md">
+            <div class="footer-top">
+                <div class="container content-md padding-bottom-40">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-6 col-xs-6 text-center margin-bottom-20">
+                            <h2 class="footer-title">Django</h2>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">Django-01</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">Django-02</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">Django-03</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 text-center margin-bottom-20">
+                            <h2 class="footer-title">React.js</h2>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">react.js-01</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">react.js-02</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">react.js-03</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 text-center margin-bottom-20">
+                            <h2 class="footer-title">webApp</h2>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="templates/rem.html" title="" target="_blank">HTML5</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="templates/rem.html" title="" target="_blank">手机端</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-6 col-xs-6 text-center margin-bottom-20">
+                            <h2 class="footer-title">Vue.js</h2>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">Vue.js-01</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">Vue.js-02</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="" title="" target="_blank">Vue.js-03</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-12 col-xs-12 text-center">
+                            <img src="{% static 'img/erweima.png' %}" alt="Logo" class="img-responsive center-block" width="160">
+                            <p style="color: #fff;margin-top: 10px;">关注我，请扫描二维码</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--copyright-->
+            <div class="copyright content-sm text-center">
+                <div class="container">
+                    <div class="row">
+                        <p>周末前端 weekscosplay.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+        <!--End Feader-->
+    </div>
+    <!--End Wrapper-->
+
+    <!--返回顶部-->
+    <div class="to-top" id="to-top">Top</div>
+
+    <!-- JS Global Compulsory -->
+    <script src="{% static 'plugins/jquery/jquery.min.js' %}"></script>
+    <script src="{% static 'plugins/bootstrap/js/bootstrap.min.js' %}"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="{% static 'plugins/owl-carousel/owl-carousel/owl.carousel.js' %}"></script>
+    <script src="{% static 'plugins/master-slider/masterslider/jquery.easing.min.js' %}"></script>
+
+    <!-- JS Customization -->
+    <script src="{% static 'js/custom.js' %}"></script>
+
+    <!-- JS Page Level -->
+
+    <!--[if lt IE 9]>
+        <script src="{% static 'plugins/respond.js' %}"></script>
+        <script src="{% static 'plugins/html5shiv.js' %}"></script>
+        <script src="{% static 'plugins/placeholder-IE-fixes.js' %}"></script>
+    <![endif]-->
+
+</body>
+</html>

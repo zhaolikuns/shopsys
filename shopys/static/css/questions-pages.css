@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+.wrapper{
+    position: relative;
+    border:1px solid transparent;
+    width: 10rem;
+    height: auto;
+    background: url(../img/questions/background-img.png) ;
+    margin: 0 auto;
+}
+
+/*
+头部区域*/
+header{
+    position: absolute;
+    left:50%;
+    margin-left:-0.76rem;
+    margin-top: -0.76rem;
+    width: 1.52rem;
+    height: 1.52rem;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    background-color: #FD514E;
+    font-family: PingFangSC-Semibold,PingFangSC-Medium,PingFangSC-Semibold;
+    font-size: 0.3466667rem;
+    color: #000;
+    text-align: center;
+    line-height: 2.2rem;
+    z-index: 10;
+}
+
+main{
+    margin: 0 auto;
+    width: 10rem;
+}
+main section{
+    width: 9.2rem;
+    margin: 0 auto;
+}
+
+.question-show h2{
+    border: 0.05333333rem solid #000;
+    width: 9.093333333rem;
+    line-height: 0.8rem;
+    font-size: 0.48rem;
+    padding:0.53rem 0.48rem ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius:0.666667rem;
+    -moz-border-radius:0.666667rem;
+    border-radius:0.666667rem;
+    margin-top: 1.69333rem;
+}
+h2.color-000{
+    color: #000;
+}
+h2.background-color-ff514e{
+    background-color: #ff514e;
+}
+.font-family-pingfangsc-medium{
+    font-family: PingFangSC-Medium;
+    font-size: 0.48rem;
+}
+.font-family-pingfangsc-regular{
+    font-family: PingFangSC-Regular;
+    font-size: 0.453333rem;
+    color: #fff;
+}
+.font-family-pingfangsc-semibold{
+    font-family: PingFangSC-Semibold;
+    font-size: 0.786667rem;
+    color: #feca6c;
+}
+/*
+答案区域样式*/
+.result-lists{
+    width: 100%;
+    margin-top: 0.6533333rem;
+
+}
+.result-lists li{
+    width: 100%;
+    position: relative;
+}
+.margin-top-04{
+    margin-top:  0.4rem;
+}
+
+.result-lists li > label{
+    display: block;
+    width: 7.8rem;
+    margin-left:0.746666rem;
+    border:0.05333333rem solid #ff514e;
+    -webkit-border-radius:0.666667rem;
+    -moz-border-radius:0.666667rem;
+    border-radius:0.666667rem;
+    padding:0.14rem 0 0.14rem 0.48rem ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    position: absolute;
+    left:0;
+    top:50%;
+    margin-top:-0.24rem;
+    width:0.48rem;
+    height:0.48rem;
+}
+input.agreeRule{
+    display: none;
+}
+
+label.form-label{
+    position: absolute;
+    left:0;
+    top:50%;
+    margin-top:-0.24rem;
+    float: left;
+    display: inline-block;
+    width:0.48rem;
+    height:0.48rem;
+    background:url("../img/questions/none-selected.png") no-repeat center center;
+    background-size: cover;
+}
+label input.agreeRule:checked + label{
+    background:url("../img/questions/yes-selected.png") no-repeat center center;
+    background-size: cover;
+}
+
+/*
+按钮区域 */
+.btns{
+    width: 100%;
+    margin: 1.96rem auto 1.4rem;
+}
+.center-btn-style{
+    margin: 0 auto;
+}
+.btn-size{
+    width: 3.666667rem;
+    height: 1.093333rem;
+}
+.btns button{
+    display: block;
+    background: url("../img/questions/btns.png") no-repeat;
+    background-size: cover;
+}
+.btns input{
+    display: block;
+    background: url("../img/questions/btns.png") no-repeat;
+    background-size: cover;
+}
+
+
+/*
+答完题，跳转界面*/
+
+
+.shows{
+    border: 0.05333333rem solid #000;
+    width: 9.093333333rem;
+    height: 4.85333333rem;
+    line-height: 0.8rem;
+    font-size: 0.48rem;
+    padding:0rem 0.48rem ;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-border-radius:0.666667rem;
+    -moz-border-radius:0.666667rem;
+    border-radius:0.666667rem;
+    background: #ff514e;
+}
+.shows > h2.results-title{
+    margin-top: 1.2rem;
+    text-align: center;
+    color: #000;
+}
+.shows > h2.results-title span{
+    color: #c00;
+}
+.text-align-center{
+    text-align: center;
+    margin-top: 0.8rem;
+}
+.font-family-pingfangsc-medium.small-font-size{
+    font-size: 0.586667rem;
+    color: #000;
+}
+
+/*
+    查看历史记录
+*/
+.result-history{
+    width: 100%;
+    margin: 1.96rem auto 1.4rem;
+}
+.result-history .result-history-btns > a{
+    display: block;
+    background: url("../img/questions/btns.png") no-repeat;
+    background-size: cover;
+}
+
+.history-a-style{
+    text-align: center;
+    line-height: 1.093333rem;
+}
+
+/*
+    历史列表项
+*/
+.wrapper.results-lists{
+    background: none;
+    width: 10rem;
+}
+.wrapper.results-lists main{
+    width: 100%;
+}
+.wrapper.results-lists main section{
+    width: 100%;
+}
+.wrapper.results-lists main section .results-lists-ul{
+    width: 100%;
+}
+.wrapper.results-lists main section .results-lists-ul li{
+    width: 100%;
+    padding: 0.266667rem 0 0.266667rem 0.266667rem ;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-shadow: inset hoff voff blur color;
+    -moz-box-shadow: inset hoff voff blur color;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    margin-top: 0.266667rem;
+}
+.results-lists-ul-imgs{
+    width: 1.4933333rem;
+    height: 1.4933333rem;
+    border:0.05333333rem solid #ff514e;
+    -webkit-border-radius:0.08rem;
+    -moz-border-radius:0.08rem;
+    border-radius:0.08rem;
+    color: #000;
+    font-size:1.06666667rem;
+    text-align: center;
+    line-height:1.4933333rem;
+    background-color: #ff514e;
+}
+
+.results-lists-ul-contents{
+    width: calc(9.466667rem - 1.81333333333rem);
+    height: 1.6rem;
+}
+.results-lists-ul-contents h2{
+    font-size: 0.49333333rem;
+    color: #000;
+}
+.results-lists-ul-contents span{
+    color: #666;
+    font-size: 0.4rem;
+}
+.margin-left-16{
+    margin-left:0.2133333rem;
+}
+.padding-top-24{
+    padding-top: 0.16rem;
+}
+.results-lists-time{
+    display: inline-block;
+}
+.padding-top-22{
+    padding-top: 0.2933333333rem;
+}
+
+/*
+    遮罩层
+*/
+.shadow{
+    position: fixed;
+    left:0;
+    top: 0;
+    width: 100%;
+    background: rgba(0,0,0,.7);
+    display: none;
+}
+
+.shadow .shows.shadow-shows{
+    position: relative;
+    margin: 3.066667rem auto 0;
+}
+.shows > h2.results-title span.color-feca6c{
+    color: #feca6c;
+}
+
+.shadow .shows.shadow-shows .shadow-close{
+    position: absolute;
+    right: 0.293333rem;
+    top: -0.5333333rem;
+    display: inline-block;
+    width: 0.96rem;
+    height: 0.96rem;
+    border:0.053333rem solid #000 ;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    text-align: center;
+    line-height: 0.9rem;
+    color: #feca6c;
+    font-size: 0.8rem;
+    z-index: 11;
+    cursor: pointer;
+    background-color: #ff514e;
+}
+
+/*阻止滚动*/
+.noscroll,
+.noscroll body {
+    overflow: hidden;
+}
+.noscroll body {
+    position: relative;
+}

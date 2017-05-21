@@ -70,6 +70,9 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+
+                # 上下文管理器
+                'shopys.untils.context_processors.shopys',
             ],
         },
     },
@@ -129,4 +132,16 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.11/howto/static-files/
 
+# add new 在给定的路径中寻找静态资源
+STATICFILES_DIRS = (
+    os.path.join(SETTINGS_DIR, 'static')
+)
 STATIC_URL = '/static/'
+
+# add new 用户上传文件位置
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+MEDIA_URL = '/media/'
+
+SITE_NAME='你好'
+META_KEYWORDS = '什么'
+META_DESCRIPTION = 'what'

@@ -2,19 +2,255 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9928990f-fdde-4dbd-9f53-d2001c2f8276" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/apps/catalog/apps.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/apps.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/__init__.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/admin.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/admin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/forms.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/forms.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/migrations/__init__.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/migrations/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/models.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/tests.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/tests.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/shopys/apps/cartlog/views.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/erweima.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/header-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/questions/background-img.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/questions/background-lines.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/questions/btns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/questions/none-selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/questions/yes-selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/img/touxiang-logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/._.DS_Store" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/basic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/crop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/fade.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/fav.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/flow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/mask.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/ms-logo.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/play.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/rate-master-slider.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/scale.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/screenshots/embed-url.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/screenshots/get-embed-code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/b-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/b-2-r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/b-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/cont.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/default.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/l-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/l-3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/l-4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/l-5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/l-6-r.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/l-6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/skins/metro.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/toggle-arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/images/wave.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/images/1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/images/2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/images/3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/black-1/black-skin-1-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/black-1/black-skin-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/black-2/black-skin-2-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/black-2/black-skin-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/contrast/contrast-skin-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/contrast/contrast-skin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/default/light-skin-1-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/default/light-skin-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-2/light-skin-2-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-2/light-skin-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-3/light-skin-3-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-3/light-skin-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-4/light-skin-4-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-4/light-skin-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-5/light-skin-5-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-5/light-skin-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-6/light-skin-6-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-6/light-skin-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/metro/metro-skin-retina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/metro/metro-skin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/grab.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/grab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/grabbing.cur" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/grabbing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/loading-1-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/loading-1-light.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/loading-1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/loading-2-dark.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/loading-2-light.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/loading-2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/video-close-btn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/owl-carousel/owl-carousel/AjaxLoader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/owl-carousel/owl-carousel/grabbing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/animates.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/audition.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/footers/footer.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/headers/header.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/questions-common.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/css/questions-pages.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/js/questions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/js/react-custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/animate.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/css/bootstrap-rtl.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/bootstrap/js/npm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/counterup.jquery.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/demo/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/jquery.counterup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/jquery.counterup.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/waypoints.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/counter/waypoints.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/font-awesome.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/font-awesome/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/html5shiv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/jquery.parallax.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/jquery/jquery-migrate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/jquery/jquery-migrate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/jquery/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/jquery/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/jquery/jquery.min.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/js/averta.csstweener.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/js/jquery-1.8.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/js/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/js/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/assets/js/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/css/bootstrap-responsive.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/bootstrap/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shAutoloader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushAS3.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushAppleScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushBash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushCSharp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushColdFusion.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushCpp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushCss.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushDelphi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushDiff.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushErlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushGroovy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushJScript.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushJava.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushJavaFX.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPerl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPhp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPlain.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPowerShell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushPython.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushRuby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushSass.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushScala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushSql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushVb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shBrushXml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shCore.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/scripts/shLegacy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCore.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shCoreRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeDefault.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeDjango.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeEclipse.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeEmacs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeFadeToGrey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeMDUltra.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeMidnight.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/documentation/syntax-highlighter/styles/shThemeRDark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/jquery.easing.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/masterslider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/masterslider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/masterslider.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/black-1/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/black-2/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/contrast/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/default/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-2/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-3/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-4/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-5/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/light-6/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/skins/metro/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/master-slider/masterslider/style/masterslider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/owl-carousel/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/owl-carousel/owl-carousel/owl.carousel.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/owl-carousel/owl-carousel/owl.carousel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/owl-carousel/owl-carousel/owl.carousel.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/owl-carousel/owl-carousel/owl.theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/placeholder-IE-fixes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/react/JSXTransformer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/react/react-dom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/react/react.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/static/plugins/respond.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/templates/includes/header-topBar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/templates/includes/navbar-brand.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/shopys/templates/includes/navbar-buttons.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopsys" afterPath="$PROJECT_DIR$/shopsys" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopys/apps/admin.py" afterPath="$PROJECT_DIR$/shopys/apps/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopys/apps/catalog/views.py" afterPath="$PROJECT_DIR$/shopys/apps/catalog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopys/settings.py" afterPath="$PROJECT_DIR$/shopys/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shopys/urls.py" afterPath="$PROJECT_DIR$/shopys/urls.py" />
     </list>
     <ignored path="shopys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,48 +274,12 @@
     <favorites_list name="shopys" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3975265">
-              <caret line="18" column="64" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -96,8 +296,20 @@
         <option value="$PROJECT_DIR$/shopys/apps/admin.py" />
         <option value="$PROJECT_DIR$/shopys/apps/catalog/admin.py" />
         <option value="$PROJECT_DIR$/shopys/apps/catalog/forms.py" />
-        <option value="$PROJECT_DIR$/shopys/settings.py" />
         <option value="$PROJECT_DIR$/shopys/apps/catalog/models.py" />
+        <option value="$PROJECT_DIR$/shopys/templates/product.html" />
+        <option value="$PROJECT_DIR$/shopys/templates/category.html" />
+        <option value="$PROJECT_DIR$/shopys/apps/catalog/urls.py" />
+        <option value="$PROJECT_DIR$/shopys/apps/catalog/views.py" />
+        <option value="$PROJECT_DIR$/shopys/urls.py" />
+        <option value="$PROJECT_DIR$/shopys/templates/index.html" />
+        <option value="$PROJECT_DIR$/shopys/templates/catalog/base.html" />
+        <option value="$PROJECT_DIR$/shopys/templates/base.html" />
+        <option value="$PROJECT_DIR$/shopys/templates/catalog/product.html" />
+        <option value="$PROJECT_DIR$/shopys/templates/catalog/index.html" />
+        <option value="$PROJECT_DIR$/shopys/untils/context_processors.py" />
+        <option value="$PROJECT_DIR$/shopys/settings.py" />
+        <option value="$PROJECT_DIR$/shopys/apps/cart/models.py" />
       </list>
     </option>
   </component>
@@ -107,8 +319,8 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
+    <option name="x" value="406" />
+    <option name="y" value="203" />
     <option name="width" value="1938" />
     <option name="height" value="1050" />
   </component>
@@ -138,6 +350,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -146,80 +359,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shopys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="catalog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../demo01" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vueJs" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\pycharm\shopys\shopys\templates\catalog" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\pycharm\shopys\shopys\templates" />
+      <recent name="C:\pycharm\shopys\shopys" />
+      <recent name="C:\pycharm\shopys\shopys\apps\catalog" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.shopys">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -480,29 +639,50 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <frame x="406" y="203" width="1938" height="1050" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16773848" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16559486" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="manage.py@shopys" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@shopys" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16773848" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="manage.py@shopys" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -520,6 +700,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopys/apps/cart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/shopys/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -532,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -556,7 +747,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3201397">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14551805">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -572,15 +761,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37834692">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shopys/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5820722">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,9 +768,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17462166">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -598,45 +775,159 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../demo01/demoApp/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shopys/settings.py">
+    <entry file="file://$PROJECT_DIR$/../demo01/demoApp/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="0.38882422">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49476135">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../demo01/demo01/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.523865">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/templates/catalog/category.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.18796992">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/apps/models.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="44" selection-start-line="14" selection-start-column="44" selection-end-line="14" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.121212125">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/templates/catalog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4705882">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/static/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2910361">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/templates/includes/navbar-brand.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4848485">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/templates/catalog/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.147059">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/templates/catalog/product.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.9411764">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/untils/context_processors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/media/header-logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17462166">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shopys/apps/catalog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3975265">
-          <caret line="18" column="64" selection-start-line="18" selection-start-column="60" selection-end-line="18" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.4726426">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/apps/cart/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopys/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41792783">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>产品类</title>
+</head>
+<body>
+    {% for foo in products %}
+        <a href="{{ foo.get_absolute_url }}">
+            <img src="{{ MEDIA_URL }}{{ foo.image }}" alt="{{ foo.name }}">
+        </a>
+    {% endfor %}
+
+</body>
+</html>
